@@ -1,2 +1,2 @@
-# gadgets_and_devices
+# gadgets-and-devices-
 a gadgets simple front-end website

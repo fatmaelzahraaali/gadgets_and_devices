@@ -1,0 +1,361 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+nav{
+    background-color: rgb(109, 104, 104);
+    width: 100%;
+    color: white;
+    display: inline-block;
+    position: fixed;
+    margin: 0px 0px 4px 0px; 
+    text-decoration: none;
+}
+nav ul li:hover 
+{
+ background-color:rgb(199, 86, 86);
+
+}
+
+
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h1,h2{
+    display: inline-block; 
+    padding: 0px 30px 0px 16px;
+}
+ul{
+    display: inline-block; 
+    padding: 0px 20px 0px 250px  
+}
+
+ul li
+{
+    margin: 0%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    box-sizing: border-box;
+    
+}
+li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+   
+}
+
+.sectionstyle{
+    margin: 0%;
+    
+    background-color:rgb(199, 86, 86) ;
+    display: inline-block;
+    padding-left:40px ;
+    min-height: 50vh;
+}
+.parstyle{
+    text-align: justify;
+    font-size: larger;
+   
+}
+.buttonstyle
+{
+    margin: 3%;
+    background-color:  rgb(109, 104, 104);
+    padding: .5%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: white;
+cursor: pointer;
+}
+button:hover a{
+    color: rgb(109, 104, 104);
+}
+.container
+{
+    background-color: rgb(175, 172, 172);
+    display: inline-block;
+    min-height: 70vh;
+    /* margin: 40px 20px 10px 70px ; */
+    padding: 40px;
+    text-align: center;
+
+    display: grid;
+    column-gap: 10px;
+    row-gap: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 650px 650px;
+
+}
+.container div{
+    padding: 3%;
+    width: 70%;
+  
+    vertical-align: middle;
+    background-color: white;
+   
+    border-radius: 30px;
+
+}
+.container div p{
+ 
+   
+    text-align: justify;
+    
+    display: flex;
+
+
+}
+.icons
+{
+    font-size: 55px;
+   margin: 5%;
+   padding-top: 30px;
+   vertical-align: middle;
+   float: left;
+   display: flex;
+}
+
+.path{
+    background-color:rgb(199, 86, 86) ;
+    min-height: 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    padding:20px 20px 2px 25px;
+}
+      
+
+/* styling other pages [about page style] */
+.path{
+    background-color:rgb(199, 86, 86);
+    min-height: 50px;
+    vertical-align: middle;
+font-size: 20px;
+padding:20px 20px 2px 25px;
+}
+.about{
+    background-color: rgb(201, 198, 198);
+    text-align: center;
+    color:rgb(82, 81, 81);
+
+}
+.ourteam
+{
+    background-color:rgb(199, 86, 86) ;
+   height: 60px;
+    margin: 0px 50px 0px 30px;
+    margin-top: 0px;
+    width: 95%;
+   vertical-align: middle;
+     display: inline-block;
+}
+.ourteam i
+{
+   margin: 0px 25px 0px 20px;
+   background-color:rgb(199, 86, 86) ;
+   color: white;
+   font-size: 30px;
+}
+.teampic{
+   
+    min-height: 60px;
+    text-align: center;
+     display: inline-block;
+}
+.about-container{
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+   
+}
+.teampic img
+{
+    
+    height: 300px;
+    width: 400px;
+
+    display: inline-block;
+} 
+
+
+.teampic p{
+    text-align: justify;
+}
+
+/* Blog style */
+.blog-container
+{
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 250px 700px  254px;
+ 
+   
+}
+.blog-container > div
+{
+
+    padding:50px 10px 20px 20px;  
+  
+}
+.blog-container >div>img{
+    
+   height: 400px;
+   width:700px;
+  
+  
+}
+
+.blog-bottom{
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: auto auto;
+    grid-template-columns: 190px 698px;
+margin-left: 20px;
+    float: left;
+    text-align: justify;
+
+}
+.blog-bottom > div{
+  
+    padding: 0%;
+    margin: 0%;
+ 
+    margin-bottom: 20px;
+}
+
+
+/* work */
+
+.work-container
+{
+    margin: 40px 20px 10px 70px ;
+    text-align: center;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto auto;
+    grid-template-columns: 500px 500px;
+}
+.work-container >div > span >img{
+    height: 250px;
+    width: 300px;
+}
+
+
+/*         search      */
+.collapsible {
+ background-color: white;
+  color: rgb(181, 110, 110);
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 15px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+/*       features     */
+
+.tablestyle  {
+    border: 1px solid rgb(165, 164, 164);
+    border-collapse: collapse;
+    padding:0%;
+    margin: 1%;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    height: 70vh;
+     
+}
+th,td{
+    border: 1px solid rgb(165, 164, 164);
+    border-collapse: collapse;
+    height: 10px;
+}
+th{
+    font-size: 30px;
+}
+
+tr:nth-child(2) {
+    background-color: rgb(193, 193, 193);
+    color: red;
+    font-size: 20px;
+}
+
+tr:nth-child(6) {
+    background-color: rgb(24, 24, 37);
+    color: white;
+    font-size: 15px;
+}
+tr:nth-child(6) a {
+    padding: 0%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+tr:nth-child(6):hover
+{
+    cursor: pointer;
+    background-color: white;
+   
+}
+
+tr:nth-child(6):hover a
+{
+   color:  rgb(24, 24, 37);
+}
+
+
+.table-container
+{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 300px 300px 300px 350px;
+   
+}
+
+/* contact */
+#map{
+    width:100%;
+    height:400px;
+    border: 2px dashed gray;
+
+}
+
+#contact-container
+{
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: auto auto;
+  grid-template-columns: 800px 350px;
+  margin: 10px 10px 10px 60px;
+}
+.sendstyle
+{
+    background-color:  rgb(24, 24, 37);
+    color: white;
+    height: 30px;
+
+}
